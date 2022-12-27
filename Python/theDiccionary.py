@@ -21,3 +21,12 @@ print(my_diccionary)
 #Eliminar un elemento:
 del my_diccionary["Reino Unido"]
 print(my_diccionary)
+
+#Diccionario dentro de un diccionario con tupla
+player = {"number":23 , "Last Name": "Jordan" , "First Name":"Michael" , "Team":"Chicago", "nbaRings":{"seasons":[1991,1992,1993,1996,1997,1998]}}
+print("Player", player)
+
+#metodos para diccionarios
+print("Metodo Key: ", player.keys())
+print("Metodo Values: ", player.values())
+print("Metodo lengh: ", len(player))
