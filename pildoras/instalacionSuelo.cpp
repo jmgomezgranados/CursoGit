@@ -4,11 +4,12 @@ using namespace std;
 
 int main(){
 
+   
+    const float price_middle_quality = 35.5;
+    const float price_high_quality = 55.5;
+    const int budget_valid_days = 30;
     float meters;
-    float price_middle_quality = 35.5;
-    float price_high_quality = 55.5;
     float taxes;
-    int budget_valid_days = 30;
     float middle_quality;
     float high_quality;
     float budget_middle_quality;
