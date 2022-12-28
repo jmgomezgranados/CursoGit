@@ -19,3 +19,4 @@ if admin_salary < area_manager_salary < director_salary < president_salary:
     print("Está todo correcto")
 else:
     print("Algo está chungo")
+
